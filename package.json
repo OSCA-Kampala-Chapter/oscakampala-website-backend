@@ -1,16 +1,29 @@
 {
   "name": "oscakampala-website-backend",
-  "version": "0.0.0",
-  "private": true,
-  "scripts": {
-    "start": "node ./bin/www"
+  "version": "1.0.0",
+  "description": "oscakampala-website-backend api",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
   },
-  "dependencies": {
-    "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
-    "express": "~4.16.1",
-    "hbs": "^4.2.0",
-    "http-errors": "~1.6.3",
-    "morgan": "~1.9.1"
-  }
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OSCA-Kampala-Chapter/oscakampala-website-backend.git"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "MongoDB",
+    "OSCA",
+    "KAMPALA"
+  ],
+  "author": "OSCA-Kampala-Chapter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OSCA-Kampala-Chapter/oscakampala-website-backend/issues"
+  },
+  "homepage": "https://github.com/OSCA-Kampala-Chapter/oscakampala-website-backend#readme"
 }
