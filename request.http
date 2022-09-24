@@ -1,0 +1,7 @@
+//this is a test file for routes with the Help of a REST CLIENT extension 
+
+GET http://localhost:3000/
+
+###
+
+POST http://localhost:4000/api/v1/login?name=Syfa
