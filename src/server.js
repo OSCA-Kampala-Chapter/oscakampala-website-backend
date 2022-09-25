@@ -1,6 +1,9 @@
-const app = require('./app')
-const PORT = process.env.PORT||3000
+const run = require('./app')
+const config = require('config')
 
-app.listen(PORT,()=>{
-     console.log(`Server is running at port http://localhost:${PORT}`)
-})
+const PORT = process.env.PORT || 
+     config.get('osca_kampala_website_backend.port')
+
+
+run(PORT)
+

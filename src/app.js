@@ -1,37 +1,30 @@
 const express = require('express')
-const mongoose = require('mongoose')
-const dbConfig = require('./config/DatabaseConfig')
-const auth = require('./api/v1/middlewares/auth')
-var { unless } = require("express-unless");
+const dbConnection = require('./config/DatabaseConfig')
+const _middlewares = require('./api/v1/middlewares/appMiddlewares')
+const logger = require('./api/v1/utils/logger')
+const config = require('config')
 
 // MIDDLEWARES
 require("dotenv").config();
+
 const app = express()
-app.use(express.json())
-app.use(express.urlencoded({ extended: false }))
 
-// CONNECT TO MONGO DB
-mongoose.Promise = global.Promise
-mongoose.connect(dbConfig.db,{
-    useNewUrlParser:true,
-    useUnifiedTopology:true
-}).then(()=>{
-console.log("Database connected successfully")
-},
-(error)=>{
-console.log("Database connection failed",error)
-})
- 
-// CONFIGURE EXPRESS UNLESS ON ROUTES WHICH DON'T NEED AUTHENTICATION
-auth.authenticateToken.unless = unless
-app.use(auth.authenticateToken.unless({
-path:[
-    {url:'/api/v1/users/login',method:['POST']},
-    {url:'/api/v1/users/register',method:['POST']}
-]
-}))
+const run = (PORT) => {
+     dbConnection().then(() => {
+        console.log('Db connected successfully')
+        // this function will load all the app middlewares
+        _middlewares(app)
 
-// REGISTER ROUTES TO EXPRESS 
-app.use("/api/v1/users/",require('./api/v1/routes/UserRoutes'));
+        app.listen(PORT,()=>{ 
+            logger.info(`Server is running at port ${PORT}`)
+            console.log(`Server is running at port ${config.get('osca_kampala_website_backend.host_url')}}`)
+        })
 
-module.exports = app
+     }).catch((err) => {
+        logger.error(err.message)
+        process.exit(1)
+     })
+
+}
+
+module.exports = run

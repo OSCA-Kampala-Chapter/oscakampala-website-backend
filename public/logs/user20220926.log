@@ -1,0 +1,955 @@
+{
+  error: ReferenceError: log is not defined
+      at Server.<anonymous> (/home/webcloud/apps/open-source/oscakampala-website-backend/src/app.js:17:13)
+      at Object.onceWrapper (events.js:481:28)
+      at Server.emit (events.js:375:28)
+      at emitListeningNT (net.js:1354:10)
+      at processTicksAndRejections (internal/process/task_queues.js:81:21),
+  level: 'error',
+  message: 'uncaughtException: log is not defined\n' +
+    'ReferenceError: log is not defined\n' +
+    '    at Server.<anonymous> (/home/webcloud/apps/open-source/oscakampala-website-backend/src/app.js:17:13)\n' +
+    '    at Object.onceWrapper (events.js:481:28)\n' +
+    '    at Server.emit (events.js:375:28)\n' +
+    '    at emitListeningNT (net.js:1354:10)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:81:21)',
+  stack: 'ReferenceError: log is not defined\n' +
+    '    at Server.<anonymous> (/home/webcloud/apps/open-source/oscakampala-website-backend/src/app.js:17:13)\n' +
+    '    at Object.onceWrapper (events.js:481:28)\n' +
+    '    at Server.emit (events.js:375:28)\n' +
+    '    at emitListeningNT (net.js:1354:10)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:81:21)',
+  exception: true,
+  date: 'Mon Sep 26 2022 00:57:26 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 69391,
+    uid: 1001,
+    gid: 1002,
+    cwd: '/home/webcloud/apps/open-source/oscakampala-website-backend',
+    execPath: '/home/webcloud/.nvm/versions/node/v14.17.1/bin/node',
+    version: 'v14.17.1',
+    argv: [
+      '/home/webcloud/.nvm/versions/node/v14.17.1/bin/node',
+      '/home/webcloud/apps/open-source/oscakampala-website-backend/src/server.js'
+    ],
+    memoryUsage: {
+      rss: 71593984,
+      heapTotal: 34123776,
+      heapUsed: 23849256,
+      external: 20717121,
+      arrayBuffers: 19139931
+    }
+  },
+  os: { loadavg: [ 1.09, 1.39, 1.76 ], uptime: 228948.97 },
+  trace: [
+    {
+      column: 13,
+      file: '/home/webcloud/apps/open-source/oscakampala-website-backend/src/app.js',
+      function: null,
+      line: 17,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'events.js',
+      function: 'Object.onceWrapper',
+      line: 481,
+      method: 'onceWrapper',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'events.js',
+      function: 'Server.emit',
+      line: 375,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'net.js',
+      function: 'emitListeningNT',
+      line: 1354,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'internal/process/task_queues.js',
+      function: 'processTicksAndRejections',
+      line: 81,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2022-09-25T21:57:26.387Z'
+}
+{
+  message: 'GET /api/v1/user 500 1637 - 5.357 ms\n',
+  level: 'info',
+  timestamp: '2022-09-25T21:58:12.224Z'
+}
+{
+  error: ReferenceError: log is not defined
+      at Server.<anonymous> (/home/webcloud/apps/open-source/oscakampala-website-backend/src/app.js:17:13)
+      at Object.onceWrapper (events.js:481:28)
+      at Server.emit (events.js:375:28)
+      at emitListeningNT (net.js:1354:10)
+      at processTicksAndRejections (internal/process/task_queues.js:81:21),
+  level: 'error',
+  message: 'uncaughtException: log is not defined\n' +
+    'ReferenceError: log is not defined\n' +
+    '    at Server.<anonymous> (/home/webcloud/apps/open-source/oscakampala-website-backend/src/app.js:17:13)\n' +
+    '    at Object.onceWrapper (events.js:481:28)\n' +
+    '    at Server.emit (events.js:375:28)\n' +
+    '    at emitListeningNT (net.js:1354:10)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:81:21)',
+  stack: 'ReferenceError: log is not defined\n' +
+    '    at Server.<anonymous> (/home/webcloud/apps/open-source/oscakampala-website-backend/src/app.js:17:13)\n' +
+    '    at Object.onceWrapper (events.js:481:28)\n' +
+    '    at Server.emit (events.js:375:28)\n' +
+    '    at emitListeningNT (net.js:1354:10)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:81:21)',
+  exception: true,
+  date: 'Mon Sep 26 2022 00:58:47 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 69579,
+    uid: 1001,
+    gid: 1002,
+    cwd: '/home/webcloud/apps/open-source/oscakampala-website-backend',
+    execPath: '/home/webcloud/.nvm/versions/node/v14.17.1/bin/node',
+    version: 'v14.17.1',
+    argv: [
+      '/home/webcloud/.nvm/versions/node/v14.17.1/bin/node',
+      '/home/webcloud/apps/open-source/oscakampala-website-backend/src/server.js'
+    ],
+    memoryUsage: {
+      rss: 71933952,
+      heapTotal: 34123776,
+      heapUsed: 24001200,
+      external: 20732252,
+      arrayBuffers: 19155062
+    }
+  },
+  os: { loadavg: [ 1.95, 1.6, 1.8 ], uptime: 229030.09 },
+  trace: [
+    {
+      column: 13,
+      file: '/home/webcloud/apps/open-source/oscakampala-website-backend/src/app.js',
+      function: null,
+      line: 17,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'events.js',
+      function: 'Object.onceWrapper',
+      line: 481,
+      method: 'onceWrapper',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'events.js',
+      function: 'Server.emit',
+      line: 375,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'net.js',
+      function: 'emitListeningNT',
+      line: 1354,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'internal/process/task_queues.js',
+      function: 'processTicksAndRejections',
+      line: 81,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2022-09-25T21:58:47.514Z'
+}
+{
+  message: 'GET /api/v1/user 401 12 - 7.002 ms\n',
+  level: 'info',
+  timestamp: '2022-09-25T21:58:49.514Z'
+}
+{
+  error: ReferenceError: log is not defined
+      at Server.<anonymous> (/home/webcloud/apps/open-source/oscakampala-website-backend/src/app.js:17:13)
+      at Object.onceWrapper (events.js:481:28)
+      at Server.emit (events.js:375:28)
+      at emitListeningNT (net.js:1354:10)
+      at processTicksAndRejections (internal/process/task_queues.js:81:21),
+  level: 'error',
+  message: 'uncaughtException: log is not defined\n' +
+    'ReferenceError: log is not defined\n' +
+    '    at Server.<anonymous> (/home/webcloud/apps/open-source/oscakampala-website-backend/src/app.js:17:13)\n' +
+    '    at Object.onceWrapper (events.js:481:28)\n' +
+    '    at Server.emit (events.js:375:28)\n' +
+    '    at emitListeningNT (net.js:1354:10)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:81:21)',
+  stack: 'ReferenceError: log is not defined\n' +
+    '    at Server.<anonymous> (/home/webcloud/apps/open-source/oscakampala-website-backend/src/app.js:17:13)\n' +
+    '    at Object.onceWrapper (events.js:481:28)\n' +
+    '    at Server.emit (events.js:375:28)\n' +
+    '    at emitListeningNT (net.js:1354:10)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:81:21)',
+  exception: true,
+  date: 'Mon Sep 26 2022 01:05:33 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 70098,
+    uid: 1001,
+    gid: 1002,
+    cwd: '/home/webcloud/apps/open-source/oscakampala-website-backend',
+    execPath: '/home/webcloud/.nvm/versions/node/v14.17.1/bin/node',
+    version: 'v14.17.1',
+    argv: [
+      '/home/webcloud/.nvm/versions/node/v14.17.1/bin/node',
+      '/home/webcloud/apps/open-source/oscakampala-website-backend/src/server.js'
+    ],
+    memoryUsage: {
+      rss: 72200192,
+      heapTotal: 34123776,
+      heapUsed: 24012480,
+      external: 20737261,
+      arrayBuffers: 19160071
+    }
+  },
+  os: { loadavg: [ 0.85, 1.4, 1.68 ], uptime: 229436.28 },
+  trace: [
+    {
+      column: 13,
+      file: '/home/webcloud/apps/open-source/oscakampala-website-backend/src/app.js',
+      function: null,
+      line: 17,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'events.js',
+      function: 'Object.onceWrapper',
+      line: 481,
+      method: 'onceWrapper',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'events.js',
+      function: 'Server.emit',
+      line: 375,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'net.js',
+      function: 'emitListeningNT',
+      line: 1354,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'internal/process/task_queues.js',
+      function: 'processTicksAndRejections',
+      line: 81,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2022-09-25T22:05:33.703Z'
+}
+{
+  error: ReferenceError: config is not defined
+      at Object.<anonymous> (/home/webcloud/apps/open-source/oscakampala-website-backend/src/app.js:9:13)
+      at Module._compile (internal/modules/cjs/loader.js:1085:14)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+      at Module.load (internal/modules/cjs/loader.js:950:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+      at Module.require (internal/modules/cjs/loader.js:974:19)
+      at require (internal/modules/cjs/helpers.js:92:18)
+      at Object.<anonymous> (/home/webcloud/apps/open-source/oscakampala-website-backend/src/server.js:1:13)
+      at Module._compile (internal/modules/cjs/loader.js:1085:14)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10),
+  level: 'error',
+  message: 'uncaughtException: config is not defined\n' +
+    'ReferenceError: config is not defined\n' +
+    '    at Object.<anonymous> (/home/webcloud/apps/open-source/oscakampala-website-backend/src/app.js:9:13)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:92:18)\n' +
+    '    at Object.<anonymous> (/home/webcloud/apps/open-source/oscakampala-website-backend/src/server.js:1:13)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)',
+  stack: 'ReferenceError: config is not defined\n' +
+    '    at Object.<anonymous> (/home/webcloud/apps/open-source/oscakampala-website-backend/src/app.js:9:13)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:92:18)\n' +
+    '    at Object.<anonymous> (/home/webcloud/apps/open-source/oscakampala-website-backend/src/server.js:1:13)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)',
+  exception: true,
+  date: 'Mon Sep 26 2022 01:05:52 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 70118,
+    uid: 1001,
+    gid: 1002,
+    cwd: '/home/webcloud/apps/open-source/oscakampala-website-backend',
+    execPath: '/home/webcloud/.nvm/versions/node/v14.17.1/bin/node',
+    version: 'v14.17.1',
+    argv: [
+      '/home/webcloud/.nvm/versions/node/v14.17.1/bin/node',
+      '/home/webcloud/apps/open-source/oscakampala-website-backend/src/server.js'
+    ],
+    memoryUsage: {
+      rss: 69607424,
+      heapTotal: 33337344,
+      heapUsed: 21840528,
+      external: 20544301,
+      arrayBuffers: 18985711
+    }
+  },
+  os: { loadavg: [ 1.58, 1.54, 1.73 ], uptime: 229454.75 },
+  trace: [
+    {
+      column: 13,
+      file: '/home/webcloud/apps/open-source/oscakampala-website-backend/src/app.js',
+      function: null,
+      line: 9,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1085,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1114,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 950,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 790,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 974,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: '/home/webcloud/apps/open-source/oscakampala-website-backend/src/server.js',
+      function: null,
+      line: 1,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1085,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1114,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2022-09-25T22:05:52.173Z'
+}
+{
+  error: ReferenceError: config is not defined
+      at Object.<anonymous> (/home/webcloud/apps/open-source/oscakampala-website-backend/src/app.js:12:13)
+      at Module._compile (internal/modules/cjs/loader.js:1085:14)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+      at Module.load (internal/modules/cjs/loader.js:950:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+      at Module.require (internal/modules/cjs/loader.js:974:19)
+      at require (internal/modules/cjs/helpers.js:92:18)
+      at Object.<anonymous> (/home/webcloud/apps/open-source/oscakampala-website-backend/src/server.js:1:13)
+      at Module._compile (internal/modules/cjs/loader.js:1085:14)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10),
+  level: 'error',
+  message: 'uncaughtException: config is not defined\n' +
+    'ReferenceError: config is not defined\n' +
+    '    at Object.<anonymous> (/home/webcloud/apps/open-source/oscakampala-website-backend/src/app.js:12:13)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:92:18)\n' +
+    '    at Object.<anonymous> (/home/webcloud/apps/open-source/oscakampala-website-backend/src/server.js:1:13)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)',
+  stack: 'ReferenceError: config is not defined\n' +
+    '    at Object.<anonymous> (/home/webcloud/apps/open-source/oscakampala-website-backend/src/app.js:12:13)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:92:18)\n' +
+    '    at Object.<anonymous> (/home/webcloud/apps/open-source/oscakampala-website-backend/src/server.js:1:13)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)',
+  exception: true,
+  date: 'Mon Sep 26 2022 01:05:56 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 70132,
+    uid: 1001,
+    gid: 1002,
+    cwd: '/home/webcloud/apps/open-source/oscakampala-website-backend',
+    execPath: '/home/webcloud/.nvm/versions/node/v14.17.1/bin/node',
+    version: 'v14.17.1',
+    argv: [
+      '/home/webcloud/.nvm/versions/node/v14.17.1/bin/node',
+      '/home/webcloud/apps/open-source/oscakampala-website-backend/src/server.js'
+    ],
+    memoryUsage: {
+      rss: 68988928,
+      heapTotal: 33337344,
+      heapUsed: 21884752,
+      external: 20552493,
+      arrayBuffers: 18993903
+    }
+  },
+  os: { loadavg: [ 1.61, 1.55, 1.73 ], uptime: 229459.39 },
+  trace: [
+    {
+      column: 13,
+      file: '/home/webcloud/apps/open-source/oscakampala-website-backend/src/app.js',
+      function: null,
+      line: 12,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1085,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1114,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 950,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 790,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 974,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: '/home/webcloud/apps/open-source/oscakampala-website-backend/src/server.js',
+      function: null,
+      line: 1,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1085,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1114,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2022-09-25T22:05:56.805Z'
+}
+{
+  error: ReferenceError: log is not defined
+      at Server.<anonymous> (/home/webcloud/apps/open-source/oscakampala-website-backend/src/app.js:18:13)
+      at Object.onceWrapper (events.js:481:28)
+      at Server.emit (events.js:375:28)
+      at emitListeningNT (net.js:1354:10)
+      at processTicksAndRejections (internal/process/task_queues.js:81:21),
+  level: 'error',
+  message: 'uncaughtException: log is not defined\n' +
+    'ReferenceError: log is not defined\n' +
+    '    at Server.<anonymous> (/home/webcloud/apps/open-source/oscakampala-website-backend/src/app.js:18:13)\n' +
+    '    at Object.onceWrapper (events.js:481:28)\n' +
+    '    at Server.emit (events.js:375:28)\n' +
+    '    at emitListeningNT (net.js:1354:10)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:81:21)',
+  stack: 'ReferenceError: log is not defined\n' +
+    '    at Server.<anonymous> (/home/webcloud/apps/open-source/oscakampala-website-backend/src/app.js:18:13)\n' +
+    '    at Object.onceWrapper (events.js:481:28)\n' +
+    '    at Server.emit (events.js:375:28)\n' +
+    '    at emitListeningNT (net.js:1354:10)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:81:21)',
+  exception: true,
+  date: 'Mon Sep 26 2022 01:05:59 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 70145,
+    uid: 1001,
+    gid: 1002,
+    cwd: '/home/webcloud/apps/open-source/oscakampala-website-backend',
+    execPath: '/home/webcloud/.nvm/versions/node/v14.17.1/bin/node',
+    version: 'v14.17.1',
+    argv: [
+      '/home/webcloud/.nvm/versions/node/v14.17.1/bin/node',
+      '/home/webcloud/apps/open-source/oscakampala-website-backend/src/server.js'
+    ],
+    memoryUsage: {
+      rss: 71798784,
+      heapTotal: 34123776,
+      heapUsed: 23993352,
+      external: 20724060,
+      arrayBuffers: 19146870
+    }
+  },
+  os: { loadavg: [ 1.61, 1.55, 1.73 ], uptime: 229462.02 },
+  trace: [
+    {
+      column: 13,
+      file: '/home/webcloud/apps/open-source/oscakampala-website-backend/src/app.js',
+      function: null,
+      line: 18,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'events.js',
+      function: 'Object.onceWrapper',
+      line: 481,
+      method: 'onceWrapper',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'events.js',
+      function: 'Server.emit',
+      line: 375,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'net.js',
+      function: 'emitListeningNT',
+      line: 1354,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'internal/process/task_queues.js',
+      function: 'processTicksAndRejections',
+      line: 81,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2022-09-25T22:05:59.444Z'
+}
+{
+  message: 'Server is running at  http://localhost:3000',
+  level: 'info',
+  timestamp: '2022-09-25T22:06:12.972Z'
+}
+{
+  message: 'Server is running at  http://localhost:3000',
+  level: 'info',
+  timestamp: '2022-09-25T22:08:01.216Z'
+}
+{
+  message: 'Server is running at  http://localhost:3000',
+  level: 'info',
+  timestamp: '2022-09-25T22:09:37.412Z'
+}
+{
+  message: 'Server is running at  http://localhost:3000',
+  level: 'info',
+  timestamp: '2022-09-25T22:14:16.942Z'
+}
+{
+  message: 'Server is running at  http://localhost:3000',
+  level: 'info',
+  timestamp: '2022-09-25T22:16:32.748Z'
+}
+{
+  message: 'Server is running at  http://localhost:3000',
+  level: 'info',
+  timestamp: '2022-09-25T22:16:37.901Z'
+}
+{
+  error: Error: Configuration property "osca_kampala_website_backend.port" is not defined
+      at Config.get (/home/webcloud/apps/open-source/oscakampala-website-backend/node_modules/config/lib/config.js:179:11)
+      at Object.<anonymous> (/home/webcloud/apps/open-source/oscakampala-website-backend/src/server.js:4:34)
+      at Module._compile (internal/modules/cjs/loader.js:1085:14)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+      at Module.load (internal/modules/cjs/loader.js:950:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+      at internal/main/run_main_module.js:17:47,
+  level: 'error',
+  message: 'uncaughtException: Configuration property "osca_kampala_website_backend.port" is not defined\n' +
+    'Error: Configuration property "osca_kampala_website_backend.port" is not defined\n' +
+    '    at Config.get (/home/webcloud/apps/open-source/oscakampala-website-backend/node_modules/config/lib/config.js:179:11)\n' +
+    '    at Object.<anonymous> (/home/webcloud/apps/open-source/oscakampala-website-backend/src/server.js:4:34)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n' +
+    '    at internal/main/run_main_module.js:17:47',
+  stack: 'Error: Configuration property "osca_kampala_website_backend.port" is not defined\n' +
+    '    at Config.get (/home/webcloud/apps/open-source/oscakampala-website-backend/node_modules/config/lib/config.js:179:11)\n' +
+    '    at Object.<anonymous> (/home/webcloud/apps/open-source/oscakampala-website-backend/src/server.js:4:34)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n' +
+    '    at internal/main/run_main_module.js:17:47',
+  exception: true,
+  date: 'Mon Sep 26 2022 01:16:55 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 70959,
+    uid: 1001,
+    gid: 1002,
+    cwd: '/home/webcloud/apps/open-source/oscakampala-website-backend',
+    execPath: '/home/webcloud/.nvm/versions/node/v14.17.1/bin/node',
+    version: 'v14.17.1',
+    argv: [
+      '/home/webcloud/.nvm/versions/node/v14.17.1/bin/node',
+      '/home/webcloud/apps/open-source/oscakampala-website-backend/src/server.js'
+    ],
+    memoryUsage: {
+      rss: 68608000,
+      heapTotal: 33337344,
+      heapUsed: 22226760,
+      external: 20595907,
+      arrayBuffers: 19037317
+    }
+  },
+  os: { loadavg: [ 1.77, 1.65, 1.7 ], uptime: 230118.55 },
+  trace: [
+    {
+      column: 11,
+      file: '/home/webcloud/apps/open-source/oscakampala-website-backend/node_modules/config/lib/config.js',
+      function: 'Config.get',
+      line: 179,
+      method: 'get',
+      native: false
+    },
+    {
+      column: 34,
+      file: '/home/webcloud/apps/open-source/oscakampala-website-backend/src/server.js',
+      function: null,
+      line: 4,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1085,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1114,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 950,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 790,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 76,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 47,
+      file: 'internal/main/run_main_module.js',
+      function: null,
+      line: 17,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2022-09-25T22:16:55.965Z'
+}
+{
+  message: 'Server is running at  http://localhost:3000',
+  level: 'info',
+  timestamp: '2022-09-25T22:17:04.910Z'
+}
+{
+  message: 'Server is running at  http://localhost:3000',
+  level: 'info',
+  timestamp: '2022-09-25T22:17:13.728Z'
+}
+{
+  message: 'Server is running at  http://localhost:3000',
+  level: 'info',
+  timestamp: '2022-09-25T22:19:10.734Z'
+}
+{
+  message: 'Server is running at  http://localhost:3000',
+  level: 'info',
+  timestamp: '2022-09-25T22:19:27.266Z'
+}
+{
+  message: 'Server is running at  http://localhost:3000',
+  level: 'info',
+  timestamp: '2022-09-25T22:19:34.779Z'
+}
+{
+  message: 'Server is running at  http://localhost:3000',
+  level: 'info',
+  timestamp: '2022-09-25T22:19:42.577Z'
+}
+{
+  message: 'Server is running at  h:3000',
+  level: 'info',
+  timestamp: '2022-09-25T22:20:38.173Z'
+}
+{
+  error: Error: Configuration property "osca_kamapala_website_backend.host_url" is not defined
+      at Config.get (/home/webcloud/apps/open-source/oscakampala-website-backend/node_modules/config/lib/config.js:179:11)
+      at Server.<anonymous> (/home/webcloud/apps/open-source/oscakampala-website-backend/src/app.js:19:61)
+      at Object.onceWrapper (events.js:481:28)
+      at Server.emit (events.js:375:28)
+      at emitListeningNT (net.js:1354:10)
+      at processTicksAndRejections (internal/process/task_queues.js:81:21),
+  level: 'error',
+  message: 'uncaughtException: Configuration property "osca_kamapala_website_backend.host_url" is not defined\n' +
+    'Error: Configuration property "osca_kamapala_website_backend.host_url" is not defined\n' +
+    '    at Config.get (/home/webcloud/apps/open-source/oscakampala-website-backend/node_modules/config/lib/config.js:179:11)\n' +
+    '    at Server.<anonymous> (/home/webcloud/apps/open-source/oscakampala-website-backend/src/app.js:19:61)\n' +
+    '    at Object.onceWrapper (events.js:481:28)\n' +
+    '    at Server.emit (events.js:375:28)\n' +
+    '    at emitListeningNT (net.js:1354:10)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:81:21)',
+  stack: 'Error: Configuration property "osca_kamapala_website_backend.host_url" is not defined\n' +
+    '    at Config.get (/home/webcloud/apps/open-source/oscakampala-website-backend/node_modules/config/lib/config.js:179:11)\n' +
+    '    at Server.<anonymous> (/home/webcloud/apps/open-source/oscakampala-website-backend/src/app.js:19:61)\n' +
+    '    at Object.onceWrapper (events.js:481:28)\n' +
+    '    at Server.emit (events.js:375:28)\n' +
+    '    at emitListeningNT (net.js:1354:10)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:81:21)',
+  exception: true,
+  date: 'Mon Sep 26 2022 01:21:15 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 71271,
+    uid: 1001,
+    gid: 1002,
+    cwd: '/home/webcloud/apps/open-source/oscakampala-website-backend',
+    execPath: '/home/webcloud/.nvm/versions/node/v14.17.1/bin/node',
+    version: 'v14.17.1',
+    argv: [
+      '/home/webcloud/.nvm/versions/node/v14.17.1/bin/node',
+      '/home/webcloud/apps/open-source/oscakampala-website-backend/src/server.js'
+    ],
+    memoryUsage: {
+      rss: 72167424,
+      heapTotal: 34385920,
+      heapUsed: 24372960,
+      external: 20782605,
+      arrayBuffers: 19205415
+    }
+  },
+  os: { loadavg: [ 0.89, 1.35, 1.56 ], uptime: 230378.36 },
+  trace: [
+    {
+      column: 11,
+      file: '/home/webcloud/apps/open-source/oscakampala-website-backend/node_modules/config/lib/config.js',
+      function: 'Config.get',
+      line: 179,
+      method: 'get',
+      native: false
+    },
+    {
+      column: 61,
+      file: '/home/webcloud/apps/open-source/oscakampala-website-backend/src/app.js',
+      function: null,
+      line: 19,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'events.js',
+      function: 'Object.onceWrapper',
+      line: 481,
+      method: 'onceWrapper',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'events.js',
+      function: 'Server.emit',
+      line: 375,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'net.js',
+      function: 'emitListeningNT',
+      line: 1354,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'internal/process/task_queues.js',
+      function: 'processTicksAndRejections',
+      line: 81,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2022-09-25T22:21:15.777Z'
+}
+{
+  message: 'Server is running at port 3000',
+  level: 'info',
+  timestamp: '2022-09-25T22:21:34.010Z'
+}
+{
+  message: 'Server is running at port 3000',
+  level: 'info',
+  timestamp: '2022-09-25T22:21:59.130Z'
+}
+{
+  message: 'Server is running at port 3000',
+  level: 'info',
+  timestamp: '2022-09-25T22:22:09.690Z'
+}
+{
+  message: 'Server is running at port 3000',
+  level: 'info',
+  timestamp: '2022-09-25T22:22:14.365Z'
+}
+{
+  message: 'Server is running at port 3000',
+  level: 'info',
+  timestamp: '2022-09-25T22:22:17.618Z'
+}
+{
+  message: 'Server is running at port 3000',
+  level: 'info',
+  timestamp: '2022-09-25T22:22:22.694Z'
+}
