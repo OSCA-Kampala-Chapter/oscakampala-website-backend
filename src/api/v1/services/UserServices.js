@@ -4,7 +4,6 @@ const auth = require('../middlewares/auth')
 
 // USER LOGIN FUNCTION
 const login = async ({email,password},callback) => {
-    console.log(email,password)
     const user = await User.findOne({email});
     if(user != null){
     const comparepwd = bcrypt.compareSync(password, user.password);
