@@ -4,9 +4,12 @@ var { unless } = require("express-unless");
 const morgan = require('morgan')
 const helmet = require('helmet')
 const logger = require('../utils/logger')
+const compression = require('compression')
 
 const appMiddlewares = (app) => {
     app.use(morgan('tiny', {"stream": logger.stream}))
+    app.disable('x-powered-by')
+    app.use(compression())
     app.use(helmet())
     app.use(express.json())
     app.use(express.urlencoded({ extended: false }))

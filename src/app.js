@@ -6,14 +6,13 @@ const config = require('config')
 
 // MIDDLEWARES
 require("dotenv").config();
-
 const app = express()
 
-const run = (PORT) => {
+const run = async (PORT) => {
      dbConnection().then(() => {
-        console.log('Db connected successfully')
-        // this function will load all the app middlewares
-        _middlewares(app)
+         logger.info(`Db connected successfully`)
+         console.log('Db connected successfully')
+        _middlewares(app) // this function will load middlewares
 
         app.listen(PORT,()=>{ 
             logger.info(`Server is running at port ${PORT}`)

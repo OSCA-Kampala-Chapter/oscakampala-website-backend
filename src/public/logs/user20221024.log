@@ -1,0 +1,660 @@
+{
+  error: Error: Cannot find module 'compression'
+  Require stack:
+  - /home/webcloud/apps/open-source/oscakampala-website-backend/src/api/v1/middlewares/appMiddlewares.js
+  - /home/webcloud/apps/open-source/oscakampala-website-backend/src/app.js
+  - /home/webcloud/apps/open-source/oscakampala-website-backend/src/server.js
+      at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+      at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+      at Module.require (internal/modules/cjs/loader.js:974:19)
+      at require (internal/modules/cjs/helpers.js:92:18)
+      at Object.<anonymous> (/home/webcloud/apps/open-source/oscakampala-website-backend/src/api/v1/middlewares/appMiddlewares.js:7:21)
+      at Module._compile (internal/modules/cjs/loader.js:1085:14)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+      at Module.load (internal/modules/cjs/loader.js:950:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+      at Module.require (internal/modules/cjs/loader.js:974:19) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      '/home/webcloud/apps/open-source/oscakampala-website-backend/src/api/v1/middlewares/appMiddlewares.js',
+      '/home/webcloud/apps/open-source/oscakampala-website-backend/src/app.js',
+      '/home/webcloud/apps/open-source/oscakampala-website-backend/src/server.js'
+    ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module 'compression'\n" +
+    'Require stack:\n' +
+    '- /home/webcloud/apps/open-source/oscakampala-website-backend/src/api/v1/middlewares/appMiddlewares.js\n' +
+    '- /home/webcloud/apps/open-source/oscakampala-website-backend/src/app.js\n' +
+    '- /home/webcloud/apps/open-source/oscakampala-website-backend/src/server.js\n' +
+    "Error: Cannot find module 'compression'\n" +
+    'Require stack:\n' +
+    '- /home/webcloud/apps/open-source/oscakampala-website-backend/src/api/v1/middlewares/appMiddlewares.js\n' +
+    '- /home/webcloud/apps/open-source/oscakampala-website-backend/src/app.js\n' +
+    '- /home/webcloud/apps/open-source/oscakampala-website-backend/src/server.js\n' +
+    '    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:746:27)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:92:18)\n' +
+    '    at Object.<anonymous> (/home/webcloud/apps/open-source/oscakampala-website-backend/src/api/v1/middlewares/appMiddlewares.js:7:21)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)',
+  stack: "Error: Cannot find module 'compression'\n" +
+    'Require stack:\n' +
+    '- /home/webcloud/apps/open-source/oscakampala-website-backend/src/api/v1/middlewares/appMiddlewares.js\n' +
+    '- /home/webcloud/apps/open-source/oscakampala-website-backend/src/app.js\n' +
+    '- /home/webcloud/apps/open-source/oscakampala-website-backend/src/server.js\n' +
+    '    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:746:27)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:92:18)\n' +
+    '    at Object.<anonymous> (/home/webcloud/apps/open-source/oscakampala-website-backend/src/api/v1/middlewares/appMiddlewares.js:7:21)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)',
+  exception: true,
+  date: 'Mon Oct 24 2022 21:58:30 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 63543,
+    uid: 1001,
+    gid: 1002,
+    cwd: '/home/webcloud/apps/open-source/oscakampala-website-backend/src',
+    execPath: '/home/webcloud/.nvm/versions/node/v14.17.1/bin/node',
+    version: 'v14.17.1',
+    argv: [
+      '/home/webcloud/.nvm/versions/node/v14.17.1/bin/node',
+      '/home/webcloud/apps/open-source/oscakampala-website-backend/src/server.js'
+    ],
+    memoryUsage: {
+      rss: 69853184,
+      heapTotal: 33599488,
+      heapUsed: 21676040,
+      external: 20537362,
+      arrayBuffers: 18978772
+    }
+  },
+  os: { loadavg: [ 3.44, 4.75, 4.66 ], uptime: 110789.74 },
+  trace: [
+    {
+      column: 15,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._resolveFilename',
+      line: 902,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 746,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 974,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: '/home/webcloud/apps/open-source/oscakampala-website-backend/src/api/v1/middlewares/appMiddlewares.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1085,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1114,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 950,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 790,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 974,
+      method: 'require',
+      native: false
+    }
+  ],
+  timestamp: '2022-10-24T18:58:30.739Z'
+}
+{
+  error: Error: Cannot find module 'compression'
+  Require stack:
+  - /home/webcloud/apps/open-source/oscakampala-website-backend/src/api/v1/middlewares/appMiddlewares.js
+  - /home/webcloud/apps/open-source/oscakampala-website-backend/src/app.js
+  - /home/webcloud/apps/open-source/oscakampala-website-backend/src/server.js
+      at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+      at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+      at Module.require (internal/modules/cjs/loader.js:974:19)
+      at require (internal/modules/cjs/helpers.js:92:18)
+      at Object.<anonymous> (/home/webcloud/apps/open-source/oscakampala-website-backend/src/api/v1/middlewares/appMiddlewares.js:7:21)
+      at Module._compile (internal/modules/cjs/loader.js:1085:14)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+      at Module.load (internal/modules/cjs/loader.js:950:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+      at Module.require (internal/modules/cjs/loader.js:974:19) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      '/home/webcloud/apps/open-source/oscakampala-website-backend/src/api/v1/middlewares/appMiddlewares.js',
+      '/home/webcloud/apps/open-source/oscakampala-website-backend/src/app.js',
+      '/home/webcloud/apps/open-source/oscakampala-website-backend/src/server.js'
+    ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module 'compression'\n" +
+    'Require stack:\n' +
+    '- /home/webcloud/apps/open-source/oscakampala-website-backend/src/api/v1/middlewares/appMiddlewares.js\n' +
+    '- /home/webcloud/apps/open-source/oscakampala-website-backend/src/app.js\n' +
+    '- /home/webcloud/apps/open-source/oscakampala-website-backend/src/server.js\n' +
+    "Error: Cannot find module 'compression'\n" +
+    'Require stack:\n' +
+    '- /home/webcloud/apps/open-source/oscakampala-website-backend/src/api/v1/middlewares/appMiddlewares.js\n' +
+    '- /home/webcloud/apps/open-source/oscakampala-website-backend/src/app.js\n' +
+    '- /home/webcloud/apps/open-source/oscakampala-website-backend/src/server.js\n' +
+    '    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:746:27)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:92:18)\n' +
+    '    at Object.<anonymous> (/home/webcloud/apps/open-source/oscakampala-website-backend/src/api/v1/middlewares/appMiddlewares.js:7:21)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)',
+  stack: "Error: Cannot find module 'compression'\n" +
+    'Require stack:\n' +
+    '- /home/webcloud/apps/open-source/oscakampala-website-backend/src/api/v1/middlewares/appMiddlewares.js\n' +
+    '- /home/webcloud/apps/open-source/oscakampala-website-backend/src/app.js\n' +
+    '- /home/webcloud/apps/open-source/oscakampala-website-backend/src/server.js\n' +
+    '    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:746:27)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:92:18)\n' +
+    '    at Object.<anonymous> (/home/webcloud/apps/open-source/oscakampala-website-backend/src/api/v1/middlewares/appMiddlewares.js:7:21)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)',
+  exception: true,
+  date: 'Mon Oct 24 2022 21:58:40 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 63597,
+    uid: 1001,
+    gid: 1002,
+    cwd: '/home/webcloud/apps/open-source/oscakampala-website-backend/src',
+    execPath: '/home/webcloud/.nvm/versions/node/v14.17.1/bin/node',
+    version: 'v14.17.1',
+    argv: [
+      '/home/webcloud/.nvm/versions/node/v14.17.1/bin/node',
+      '/home/webcloud/apps/open-source/oscakampala-website-backend/src/server.js'
+    ],
+    memoryUsage: {
+      rss: 70144000,
+      heapTotal: 33071104,
+      heapUsed: 22302576,
+      external: 20799864,
+      arrayBuffers: 19241274
+    }
+  },
+  os: { loadavg: [ 3.63, 4.74, 4.66 ], uptime: 110799.39 },
+  trace: [
+    {
+      column: 15,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._resolveFilename',
+      line: 902,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 746,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 974,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: '/home/webcloud/apps/open-source/oscakampala-website-backend/src/api/v1/middlewares/appMiddlewares.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1085,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1114,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 950,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 790,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 974,
+      method: 'require',
+      native: false
+    }
+  ],
+  timestamp: '2022-10-24T18:58:40.382Z'
+}
+{
+  error: Error: Cannot find module 'compression'
+  Require stack:
+  - /home/webcloud/apps/open-source/oscakampala-website-backend/src/api/v1/middlewares/appMiddlewares.js
+  - /home/webcloud/apps/open-source/oscakampala-website-backend/src/app.js
+  - /home/webcloud/apps/open-source/oscakampala-website-backend/src/server.js
+      at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+      at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+      at Module.require (internal/modules/cjs/loader.js:974:19)
+      at require (internal/modules/cjs/helpers.js:92:18)
+      at Object.<anonymous> (/home/webcloud/apps/open-source/oscakampala-website-backend/src/api/v1/middlewares/appMiddlewares.js:7:21)
+      at Module._compile (internal/modules/cjs/loader.js:1085:14)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+      at Module.load (internal/modules/cjs/loader.js:950:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+      at Module.require (internal/modules/cjs/loader.js:974:19) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      '/home/webcloud/apps/open-source/oscakampala-website-backend/src/api/v1/middlewares/appMiddlewares.js',
+      '/home/webcloud/apps/open-source/oscakampala-website-backend/src/app.js',
+      '/home/webcloud/apps/open-source/oscakampala-website-backend/src/server.js'
+    ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module 'compression'\n" +
+    'Require stack:\n' +
+    '- /home/webcloud/apps/open-source/oscakampala-website-backend/src/api/v1/middlewares/appMiddlewares.js\n' +
+    '- /home/webcloud/apps/open-source/oscakampala-website-backend/src/app.js\n' +
+    '- /home/webcloud/apps/open-source/oscakampala-website-backend/src/server.js\n' +
+    "Error: Cannot find module 'compression'\n" +
+    'Require stack:\n' +
+    '- /home/webcloud/apps/open-source/oscakampala-website-backend/src/api/v1/middlewares/appMiddlewares.js\n' +
+    '- /home/webcloud/apps/open-source/oscakampala-website-backend/src/app.js\n' +
+    '- /home/webcloud/apps/open-source/oscakampala-website-backend/src/server.js\n' +
+    '    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:746:27)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:92:18)\n' +
+    '    at Object.<anonymous> (/home/webcloud/apps/open-source/oscakampala-website-backend/src/api/v1/middlewares/appMiddlewares.js:7:21)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)',
+  stack: "Error: Cannot find module 'compression'\n" +
+    'Require stack:\n' +
+    '- /home/webcloud/apps/open-source/oscakampala-website-backend/src/api/v1/middlewares/appMiddlewares.js\n' +
+    '- /home/webcloud/apps/open-source/oscakampala-website-backend/src/app.js\n' +
+    '- /home/webcloud/apps/open-source/oscakampala-website-backend/src/server.js\n' +
+    '    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:746:27)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:92:18)\n' +
+    '    at Object.<anonymous> (/home/webcloud/apps/open-source/oscakampala-website-backend/src/api/v1/middlewares/appMiddlewares.js:7:21)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)',
+  exception: true,
+  date: 'Mon Oct 24 2022 21:59:15 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 63684,
+    uid: 1001,
+    gid: 1002,
+    cwd: '/home/webcloud/apps/open-source/oscakampala-website-backend/src',
+    execPath: '/home/webcloud/.nvm/versions/node/v14.17.1/bin/node',
+    version: 'v14.17.1',
+    argv: [
+      '/home/webcloud/.nvm/versions/node/v14.17.1/bin/node',
+      '/home/webcloud/apps/open-source/oscakampala-website-backend/src/server.js'
+    ],
+    memoryUsage: {
+      rss: 69165056,
+      heapTotal: 33337344,
+      heapUsed: 21857864,
+      external: 20557502,
+      arrayBuffers: 18998912
+    }
+  },
+  os: { loadavg: [ 3.89, 4.7, 4.65 ], uptime: 110834.57 },
+  trace: [
+    {
+      column: 15,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._resolveFilename',
+      line: 902,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 746,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 974,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: '/home/webcloud/apps/open-source/oscakampala-website-backend/src/api/v1/middlewares/appMiddlewares.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1085,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1114,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 950,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 790,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 974,
+      method: 'require',
+      native: false
+    }
+  ],
+  timestamp: '2022-10-24T18:59:15.568Z'
+}
+{
+  error: Error: Cannot find module 'compression'
+  Require stack:
+  - /home/webcloud/apps/open-source/oscakampala-website-backend/src/api/v1/middlewares/appMiddlewares.js
+  - /home/webcloud/apps/open-source/oscakampala-website-backend/src/app.js
+  - /home/webcloud/apps/open-source/oscakampala-website-backend/src/server.js
+      at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+      at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+      at Module.require (internal/modules/cjs/loader.js:974:19)
+      at require (internal/modules/cjs/helpers.js:92:18)
+      at Object.<anonymous> (/home/webcloud/apps/open-source/oscakampala-website-backend/src/api/v1/middlewares/appMiddlewares.js:7:21)
+      at Module._compile (internal/modules/cjs/loader.js:1085:14)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+      at Module.load (internal/modules/cjs/loader.js:950:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+      at Module.require (internal/modules/cjs/loader.js:974:19) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      '/home/webcloud/apps/open-source/oscakampala-website-backend/src/api/v1/middlewares/appMiddlewares.js',
+      '/home/webcloud/apps/open-source/oscakampala-website-backend/src/app.js',
+      '/home/webcloud/apps/open-source/oscakampala-website-backend/src/server.js'
+    ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module 'compression'\n" +
+    'Require stack:\n' +
+    '- /home/webcloud/apps/open-source/oscakampala-website-backend/src/api/v1/middlewares/appMiddlewares.js\n' +
+    '- /home/webcloud/apps/open-source/oscakampala-website-backend/src/app.js\n' +
+    '- /home/webcloud/apps/open-source/oscakampala-website-backend/src/server.js\n' +
+    "Error: Cannot find module 'compression'\n" +
+    'Require stack:\n' +
+    '- /home/webcloud/apps/open-source/oscakampala-website-backend/src/api/v1/middlewares/appMiddlewares.js\n' +
+    '- /home/webcloud/apps/open-source/oscakampala-website-backend/src/app.js\n' +
+    '- /home/webcloud/apps/open-source/oscakampala-website-backend/src/server.js\n' +
+    '    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:746:27)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:92:18)\n' +
+    '    at Object.<anonymous> (/home/webcloud/apps/open-source/oscakampala-website-backend/src/api/v1/middlewares/appMiddlewares.js:7:21)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)',
+  stack: "Error: Cannot find module 'compression'\n" +
+    'Require stack:\n' +
+    '- /home/webcloud/apps/open-source/oscakampala-website-backend/src/api/v1/middlewares/appMiddlewares.js\n' +
+    '- /home/webcloud/apps/open-source/oscakampala-website-backend/src/app.js\n' +
+    '- /home/webcloud/apps/open-source/oscakampala-website-backend/src/server.js\n' +
+    '    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:746:27)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:92:18)\n' +
+    '    at Object.<anonymous> (/home/webcloud/apps/open-source/oscakampala-website-backend/src/api/v1/middlewares/appMiddlewares.js:7:21)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)',
+  exception: true,
+  date: 'Mon Oct 24 2022 21:59:25 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 63734,
+    uid: 1001,
+    gid: 1002,
+    cwd: '/home/webcloud/apps/open-source/oscakampala-website-backend/src',
+    execPath: '/home/webcloud/.nvm/versions/node/v14.17.1/bin/node',
+    version: 'v14.17.1',
+    argv: [
+      '/home/webcloud/.nvm/versions/node/v14.17.1/bin/node',
+      '/home/webcloud/apps/open-source/oscakampala-website-backend/src/server.js'
+    ],
+    memoryUsage: {
+      rss: 71675904,
+      heapTotal: 33333248,
+      heapUsed: 22378784,
+      external: 20821457,
+      arrayBuffers: 19262867
+    }
+  },
+  os: { loadavg: [ 4.38, 4.78, 4.67 ], uptime: 110844.05 },
+  trace: [
+    {
+      column: 15,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._resolveFilename',
+      line: 902,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 746,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 974,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: '/home/webcloud/apps/open-source/oscakampala-website-backend/src/api/v1/middlewares/appMiddlewares.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1085,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1114,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 950,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 790,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 974,
+      method: 'require',
+      native: false
+    }
+  ],
+  timestamp: '2022-10-24T18:59:25.045Z'
+}
