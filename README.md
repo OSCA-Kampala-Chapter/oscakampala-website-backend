@@ -23,23 +23,24 @@ To get started in the open source there's a multitude of tools you can use but f
 
 Please use our dedicated channels for questions and discussion. Help is much more valuable if it's shared publicly so that more people can benefit from it.
 
-| Type                                 | Platforms                                                              |
-| ------------------------------------ | ---------------------------------------------------------------------- |
-| 🚨**Bug Reports**              | [GitHub Issue Tracker][GitHub Issue Tracker]                           |
-| 🎁**Feature Requests & Ideas** | [GitHub Issue Tracker][GitHub Issue Tracker]                           |
-| 👩‍💻**Usage Questions**      | [Github Discussions][Github Discussions]                               |
-| 🗯**General Discussion**       | [Github Discussions][Github Discussions] or [Gitter Room][Gitter Room] |
+| Type                           | Platforms                                                              |
+| ------------------------------ | ---------------------------------------------------------------------- |
+| 🚨**Bug Reports**              | [GitHub Issue Tracker][github issue tracker]                           |
+| 🎁**Feature Requests & Ideas** | [GitHub Issue Tracker][github issue tracker]                           |
+| 👩‍💻**Usage Questions**          | [Github Discussions][github discussions]                               |
+| 🗯**General Discussion**        | [Github Discussions][github discussions] or [Gitter Room][gitter room] |
 
 [github issue tracker]: https://github.com/oscakampala/oscakampala.github.io/issues
 [github discussions]: https://github.com/oscakampala/oscakampala.github.io/discussions
 [gitter room]: https://gitter.im/OSCA-Kampala-Chapter?utm_source=share-link&utm_medium=link&utm_campaign=share-link
+
 ## 🔗 Links and Resources
 
-| Type                         | Links                                                                                          |
-| ---------------------------- | ---------------------------------------------------------------------------------------------- |
-| 💼**Documentation**    | [Documents](https://github.com/OSCA-Kampala-Chapter/First-contribution-practice)                  |
-| ⚒️**Built Tools**    | [Made in Uganda](https://github.com/OSCA-Kampala-Chapter)                                         |
-| 👩‍💻**Contributing** | [CONTRIBUTING.md](https://github.com/oscakampala/oscakampala.github.io/blob/main/CONTRIBUTING.md) |
+| Type                | Links                                                                                             |
+| ------------------- | ------------------------------------------------------------------------------------------------- |
+| 💼**Documentation** | [Documents](https://github.com/OSCA-Kampala-Chapter/First-contribution-practice)                  |
+| ⚒️**Built Tools**   | [Made in Uganda](https://github.com/OSCA-Kampala-Chapter)                                         |
+| 👩‍💻**Contributing**  | [CONTRIBUTING.md](https://github.com/oscakampala/oscakampala.github.io/blob/main/CONTRIBUTING.md) |
 
 ## ☎️ How to get in touch
 
@@ -51,23 +52,23 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 ## Quick Start
 
-- Clone or Fork the repository
+-   Clone or Fork the repository
 
 ```
 git clone  <git lab template url> <project_name>
 ```
 
-- Install dependencies
+-   Install dependencies
 
 ```
 cd <project_name>
 npm install
 ```
 
-- Build and run the project
+-   Build and run the project
 
 ```
 npm start
 ```
 
-  Navigate to `http://localhost:4000`
+Navigate to `http://localhost:4000`

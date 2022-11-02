@@ -3,15 +3,14 @@ const { combine, timestamp, label, prettyPrint } = format;
 const fs = require('fs');
 require('winston-daily-rotate-file');
 
-try{
-if (!fs.existsSync('public/logs')) {
-    fs.mkdirSync('public/logs');
-}else {
-    throw new Error('public folder exists')
-}
-
-}catch(err) {
-    console.error(err.message)
+try {
+    if (!fs.existsSync('public/logs')) {
+        fs.mkdirSync('public/logs');
+    } else {
+        throw new Error('public folder exists');
+    }
+} catch (err) {
+    console.error(err.message);
 }
 var transportsLogger = [];
 
@@ -23,26 +22,20 @@ transportsLogger.push(
         handleExceptions: true,
         json: true,
         maxSize: '1g',
-        maxFiles: '3d'
+        maxFiles: '3d',
     })
 );
 
-
 var logger = createLogger({
-    format: combine(
-        timestamp(),
-        prettyPrint()
-    ),
+    format: combine(timestamp(), prettyPrint()),
     transports: transportsLogger,
-    exitOnError: false
+    exitOnError: false,
 });
 
 logger.stream = {
-    write: function(message, encoding){
+    write: function (message, encoding) {
         logger.info(message);
-    }
+    },
 };
 
 module.exports = logger;
-
-
