@@ -1,14 +1,8 @@
-const run = require('./app')
-const config = require('config')
-const server = require('express')()
+const run = require('./app');
+const config = require('config');
 
+const PORT = parseInt(
+    process.env.PORT || config.get('osca_kampala_website_backend.port')
+);
 
-const PORT = process.env.PORT || 
-     config.get('osca_kampala_website_backend.port')
-
-
-run(PORT)
-
-
-
-
+run(PORT);
