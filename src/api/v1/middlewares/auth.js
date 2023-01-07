@@ -7,6 +7,8 @@ const authenticateToken = (req, res, next) => {
     const token = authHeader && authHeader.split(' ')[1];
 
     if (token == null) return res.sendStatus(401);
+    if (!token.startsWith('Bearer')) return res.sendStatus(403);
+
     jwt.verify(token, process.env.JWT_SECRETE, (err, user) => {
         if (err) return res.sendStatus(403);
         req.user = user;
@@ -15,12 +17,13 @@ const authenticateToken = (req, res, next) => {
 };
 
 // TOKEN GENERATION FUNCTION
-const generateAccessToken = (email) => {
-    return jwt.sign({ data: email }, process.env.JWT_SECRETE, {
-        expiresIn: '1h',
-    });
-};
+// const generateAccessToken = (email) => {
+//     return jwt.sign({ data: email }, process.env.JWT_SECRETE, {
+//         expiresIn: '1h',
+//     });
+// };
 
+// this function will create both access and refresh tokens
 const generateTokens = async (email) => {
     const accessToken = jwt.sign({ data: email }, process.env.JWT_SECRETE, {
         expiresIn: '15m',
@@ -43,6 +46,5 @@ const generateTokens = async (email) => {
 
 module.exports = {
     authenticateToken,
-    generateAccessToken,
     generateTokens,
 };

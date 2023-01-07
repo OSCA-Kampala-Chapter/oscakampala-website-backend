@@ -7,7 +7,10 @@ const logger = require('../utils/logger');
 const compression = require('compression');
 
 const appMiddlewares = (app) => {
-    app.use(morgan('tiny', { stream: logger.stream }));
+    // only use morgan middleware in development
+    process.env.NODE_ENV === 'development' &&
+        app.use(morgan('tiny', { stream: logger.stream }));
+
     app.disable('x-powered-by');
     app.use(compression());
     app.use(helmet());
