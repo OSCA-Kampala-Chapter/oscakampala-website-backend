@@ -1,5 +1,4 @@
 const User = require('../models/User');
-const bcrypt = require('bcryptjs');
 const auth = require('../middlewares/auth');
 const argon2 = require('argon2');
 
@@ -10,8 +9,14 @@ const login = async ({ email, password }, callback) => {
     if (user != null) {
         const comparepwd = await argon2.verify(user.password, password);
         if (comparepwd) {
-            const token = await auth.generateAccessToken(email);
-            return callback(null, { ...user.toJSON(), token });
+            const { accessToken, refreshToken } = await auth.generateTokens(
+                email
+            );
+            return callback(null, {
+                ...user.toJSON(),
+                accessToken,
+                refreshToken,
+            });
         } else {
             return callback({
                 message: 'Invalid Username or Password',

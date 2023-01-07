@@ -7,7 +7,8 @@
         "test": "test"
     },
     "scripts": {
-        "start": "nodemon ./src/server.js",
+        "start": "NODE_ENV=production node ./src/server.js",
+        "dev": "NODE_ENV=development nodemon ./src/server.js",
         "prettier": "prettier --write ."
     },
     "repository": {
@@ -41,6 +42,7 @@
         "mongoose-unique-validator": "^3.1.0",
         "morgan": "^1.10.0",
         "nodemon": "^2.0.20",
+        "redis": "^4.5.1",
         "winston": "^3.8.2",
         "winston-daily-rotate-file": "^4.7.1"
     },

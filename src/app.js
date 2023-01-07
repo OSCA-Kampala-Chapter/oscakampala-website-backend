@@ -1,10 +1,10 @@
+require('dotenv').config();
 const express = require('express');
 const dbConnection = require('./config/DatabaseConfig');
 const _middlewares = require('./api/v1/middlewares/appMiddlewares');
 const logger = require('./api/v1/utils/logger');
 
 // MIDDLEWARES
-require('dotenv').config();
 
 const app = express();
 
